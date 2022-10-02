@@ -59,7 +59,8 @@ class SiteFooter extends React.Component {
         <div className="container-fluid d-flex">
           <a
             className="d-block"
-            href={config.LMS_BASE_URL}
+            target="_blank"
+            href={https://injaz.org.jo/}
             aria-label={intl.formatMessage(messages['footer.logo.ariaLabel'])}
           >
             <img
