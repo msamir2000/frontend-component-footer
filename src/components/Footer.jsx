@@ -60,7 +60,7 @@ class SiteFooter extends React.Component {
           <a
             className="d-block"
             target="_blank"
-            href={https://injaz.org.jo/}
+            href={'https://injaz.org.jo/'}
             aria-label={intl.formatMessage(messages['footer.logo.ariaLabel'])}
           >
             <img
