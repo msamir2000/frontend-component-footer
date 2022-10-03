@@ -56,19 +56,7 @@ class SiteFooter extends React.Component {
         role="contentinfo"
         className="footer d-flex border-top py-3 px-4"
       >
-        <div className="container-fluid d-flex">
-          <a
-            className="d-block"
-            target="_blank"
-            href={'https://injaz.org.jo/'}
-            aria-label={intl.formatMessage(messages['footer.logo.ariaLabel'])}
-          >
-            <img
-              style={{ maxHeight: 45 }}
-              src={logo || config.LOGO_TRADEMARK_URL}
-              alt={intl.formatMessage(messages['footer.logo.altText'])}
-            />
-          </a>
+        <div className="container-fluid d-flex">          
           <div className="flex-grow-1" />
           {showLanguageSelector && (
             <LanguageSelector
